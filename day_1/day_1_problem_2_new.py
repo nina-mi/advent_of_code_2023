@@ -32,3 +32,5 @@ for x in f:
     print(sum)
     final_sum += int(sum)
 print(final_sum)
+
+f.close()
