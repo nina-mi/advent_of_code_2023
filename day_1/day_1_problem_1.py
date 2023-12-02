@@ -21,3 +21,8 @@ for x in f:
 print(final_sum)
 
 f.close()
+
+# f = open("file", "r") open file to read
+# f = open("file", "w") open file to write, this will overwrite the file
+# f = open("file", a) open file to append, this will add to the end of the file
+# f = open("file", "x") create file, this will return an error if the file already exists
